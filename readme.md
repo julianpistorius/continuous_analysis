@@ -1,6 +1,6 @@
 # Continuous Analysis
 
-Work damnit.
+Grr...
 
 [![Build Status](http://128.196.65.138/api/badges/julianpistorius/continuous_analysis/status.svg)](http://128.196.65.138/julianpistorius/continuous_analysis)
 
