@@ -3,7 +3,7 @@ workspace:
 
 pipeline:
   run_kallisto:
-    image: jpistorius/continuous_analysis_base:latest
+    image: brettbj/continuous_analysis_base:latest
     commands:
       - ls /drone/src
       - mkdir -p drone
@@ -21,7 +21,7 @@ pipeline:
       - jupyter nbconvert --to html --execute /drone/src/Drone_Plotting.ipynb
 
   push_to_github:
-    image: jpistorius/continuous_analysis_base:latest
+    image: brettbj/continuous_analysis_base:latest
     secrets: [ git_publish_key ]
     commands:
       # plot the results from a jupyter notebook
