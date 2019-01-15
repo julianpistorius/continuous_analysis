@@ -1,5 +1,7 @@
 # Continuous Analysis
 
+[![Build Status](http://128.196.65.138/api/badges/julianpistorius/continuous_analysis/status.svg)](http://128.196.65.138/julianpistorius/continuous_analysis)
+
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 This repository presents [Continuous Analysis](http://greenelab.github.io/continuous_analysis/), a process demonstrating computational reproducibility by producing verifiable end-to-end runs of computational research. The process is described in detail in: [Nature Biotechnology](http://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3780.html) and [Biorxiv Preprint](http://dx.doi.org/10.1101/056473).
